@@ -28,21 +28,39 @@
         }
         .cetvrta {
             border: 5px ridge aquamarine;
-            margin-right:800px;
-            margin-left: 300px;
-            margin-right: 300px;
+           
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 100px;
 
 
         }
-        .slika {
-
-            width: 200px;
-            margin-left: 300px;
-            border: 6px ridge red;
-            right: 253px;
-            }
+        
+        
+        #image1 {
+            position:absolute;
+            right: 150px;
+            z-index: 1;
         }
-            
+        #image2 {
+            position:absolute;
+            right: 200px;
+            top: 300px;
+            z-index: 2;
+        }
+
+        #image3 {
+            position:absolute;
+            right: 250px;
+            top: 250px;
+            z-index: 3;
+        }
+
+        #divdiv{
+            border: 5px rebeccapurple;
+        }
+       
+       
         </style>
     </head>
     <body>
@@ -58,7 +76,12 @@
             <li>Be sociable!</li>
             <li>Don't drink much</li>
         </ul>
-        <img class="slika" src="crkva.jpg">
+        <div id="divdiv">
+            <img id="image1" src="vjenjcanje.jpg" width="200px" height="150px" />
+            <img id="image2" src="beograd.jpg" width="200px"  height="150px"/>
+            <img id="image3" src="crkva.jpg" width="200px" height="150px"/>
+
+        </div>
         <p>
             Maria and Luka are getting married in the church of St. Mark in Belgrade and you are invited.
         </p>
